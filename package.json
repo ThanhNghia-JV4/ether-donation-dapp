@@ -1,0 +1,30 @@
+{
+  "name": "ether-donation-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanhNghia-JV4/ether-donation-dapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThanhNghia-JV4/ether-donation-dapp/issues"
+  },
+  "homepage": "https://github.com/ThanhNghia-JV4/ether-donation-dapp#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2"
+  },
+  "dependencies": {
+    "hardhat": "^2.14.0"
+  }
+}
