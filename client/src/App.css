@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1799F7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.amountButton {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  padding: .375rem .75rem;
+  font-family: -apple-system;
+  text-decoration: none;
+  width: 100%;
+  margin-left: 10px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+.amountButtonLeft {
+  padding-right: 5px !important;
+}
+.amountButtonRight {
+  padding-left: 5px !important;
+}
+.amountButton:hover {
+  color: #000 !important;
+  background-color: #ffe484;
+  border-color: #ffe484;
+}
+.amountButton:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+.amountClicked {
+  color: #000 !important;
+  background-color: #ffe484;
+  border-color: #ffe484;
+}
+.donateHeader {
+  color: #ffe484;
+  font-size: 42px;
+}
+.dot {
+  float: left;
+  margin-top: 12px !important;
+  margin-left: 15px !important;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.redDot {
+  background-color: #f85520;
+}
+.greenDot {
+  background-color: #00FF00;
+}
+.donationBubbleLeft {
+  border-radius: 4em 4em / 4em 4em;
+  background-color: #fff;
+  width: 100%;
+  color: #000;
+  margin-top: 5px;
+  text-align: left;
+  padding-left: 10px;
+}
+.paddingLeft {
+  padding-left: 15px;
+}
+.byAddress {
+  font-size: 18px;
 }
